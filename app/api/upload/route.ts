@@ -15,10 +15,14 @@ export async function POST(req: NextRequest) {
   const buffer = Buffer.from(await file.arrayBuffer());
   const base64 = `data:${file.type};base64,${buffer.toString("base64")}`;
 
-  // Upload original — no transformation applied at storage.
-  // Web-optimised versions are generated on-the-fly via URL params in the UI.
+  // Store at max 2000px wide, high quality — saves Cloudinary storage.
+  // Further format optimisation (WebP/AVIF) is applied at delivery via URL.
   const result = await cloudinary.uploader.upload(base64, {
     folder: "prompt-library",
+    transformation: [
+      { width: 2000, crop: "limit" },
+      { quality: "auto:best" },
+    ],
   });
 
   return NextResponse.json({
