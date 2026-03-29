@@ -4,6 +4,7 @@ import { useState } from "react";
 import Image from "next/image";
 import type { Prompt } from "@/types/prompt";
 import ImageLightbox from "@/components/ImageLightbox";
+import { getDisplayUrl } from "@/lib/cloudinary";
 
 const CATEGORY_STYLES: Record<string, string> = {
   "Gen AI":    "bg-yellow-400/15 text-yellow-300",
@@ -58,7 +59,7 @@ export default function PromptCard({
       {prompt.image && (
         <div className="relative aspect-[4/3] w-full overflow-hidden">
           <Image
-            src={prompt.image}
+            src={getDisplayUrl(prompt.image)}
             alt={prompt.title}
             fill
             priority={priority}

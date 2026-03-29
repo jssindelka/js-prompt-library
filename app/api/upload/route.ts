@@ -15,15 +15,14 @@ export async function POST(req: NextRequest) {
   const buffer = Buffer.from(await file.arrayBuffer());
   const base64 = `data:${file.type};base64,${buffer.toString("base64")}`;
 
+  // Upload original — no transformation applied at storage.
+  // Web-optimised versions are generated on-the-fly via URL params in the UI.
   const result = await cloudinary.uploader.upload(base64, {
     folder: "prompt-library",
-    transformation: [
-      { quality: "auto:good", fetch_format: "auto" }
-    ],
   });
 
   return NextResponse.json({
-    path: result.secure_url,
-    originalUrl: result.secure_url,
+    path: result.secure_url,        // original URL stored in DB
+    originalUrl: result.secure_url, // same — used for download
   });
 }
