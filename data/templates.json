@@ -1,0 +1,145 @@
+[
+  {
+    "id": "1774793059473",
+    "title": "System Prompt – 4 editorial scenes",
+    "prompt": "((USER PROMPT))\nLifestyle campaign photography product photos of model in an outfit, modelling Jimmy Fairly sunglasses and glasses. The sunglasses and glasses are always the central focus.\n\n\n((SYSTEM PROMPT))\nGenerate 4 image prompts for a JIMMY FAIRLY eyewear campaign, describing varied fashion editorial and candid close-up shots of @img1 wearing @img2.\n\nCONSISTENCY & STYLE GUIDELINES:\nSubject: Maintain absolute consistency in the model's physical appearance, clothing, sunglasses, and lighting across all 4 prompts.\n\nProduct: The Jimmy Fairly product must be clearly visible and correctly positioned on the face in every prompt where the face is visible. Frames must sit at the correct angle — never askew, pushed up, or obscured. A subtle ambient reflection in the lens is encouraged for realism.\n\nAspect Ratio Framing — 1:1 Square: All compositions must be tightly framed to fill a square canvas. Subjects should be cropped at chest or waist level. No full-length shots. Prioritise face, frames, and upper-body detail. Centre the subject with minimal headroom — one head-width above the crown maximum. Use negative space deliberately on the left or right, never above or below.\n\nEnvironment: Every shot uses a real textured wall — warm plaster, raw canvas, matte painted concrete, or rough linen-finish surface. Colour drawn from the Jimmy Fairly palette: dusty blush, warm stone, soft ecru, aged white, muted terracotta. The wall must have visible surface texture and subtle tonal variation — never flat, never seamless, never gradient. No objects, no furniture, no environmental depth. The background is always slightly defocused — present but subordinate.\n\nLighting : Soft, controlled, single large source mimicking a north-facing window or large bounced reflector. Warm 5000–5500K. Wrap-around fill, minimal shadow, skin reads luminous and accurate. No flash quality, no hard specular. No smiling. \n\nStyle: Lifestyle-editorial register — tighter and more controlled than a street shot, warmer and more human than a clean studio. The textured wall gives the image life; the lighting keeps it editorial. Kodak Portra 160 film stock feel throughout — fine grain, warm accurate skin tones, lifted blacks, no crushed shadows, no digital harshness. Medium format photographic presence. No normcore styling, no stock photo energy.\n–\nREQUIRED SHOT LIST:\nEDITORIAL (4 SCENES)\nA01 - FRAME STUDY (Lens Architecture Close-Up): \nA02 - THE STANCE (Editorial Three-Quarter): \nA03 - SHOULDER TURN (Rear Three-Quarter): \nA04 - THE WEIGHT (Editorial Portrait):\n–\nSCENE TEMPLATE:\n[IMAGE TYPE: Fashion campaign photography]\n\n[SUBJECT REFERENCE: @img1 wearing @img2]\n[OUTFIT:///fill in your models outfit, model @img1 wearing.....///]\n[PRODUCT:///fill in your product description, product @img2 is....///]\n\n[SUBJECT ACTION:]\n[SHOT TYPE:]\n[CAMERA ANGLE:]\n[LENS:]\n[LIGHTING:]\n[ENVIRONMENT:]\n[COLOR GRADE:]\n[MOOD & ATMOSPHERE:]\n[TECHNICAL SPECS:]\n–\nOUTPUT FORMAT: Return only the 4 prompts, in scene order. Do not use numbering, bullet points, or introductory text. Each prompt must be self-contained and ready to run in an AI image tool without modification. All compositions must work within a 1:1 square aspect ratio. Separate each prompt with a single asterisk (*) placed at its very end. Omit the asterisk after the final prompt in the sequence.\n",
+    "example": "",
+    "categories": [
+      "LLM",
+      "Gen AI"
+    ],
+    "createdAt": "2026-03-29"
+  },
+  {
+    "id": "1774791509906",
+    "title": "Brand Guideline",
+    "prompt": "Lets utilise the Vibe cloner and Visual director to create a brand guideline for Jimmy Fairly brand\n\nCheck attached images + search www.jimmyfairly.com\n\nWhat I want is a full breakdown of the aesthetic style of JIMMY FAIRLY, including recommended model-types (1 male, 1 female) to build with a structured prompt template that we can then use as a subject reference (to showcase the sunglasses through a series of poses), a master template that defines and locks the aesthetic qualities of the JIMMY FAIRLY brand/ethos, that can be applied across all image compositions.\n\nEnd goal:\nto be able to take a number of Jimmy Fairly products, use AI-generated models to pose in the products, in scenes we create with a prompt template (SCENE TEMPLATE), all adhering to the core brand style.\nfeel free to ask qualifying questions before we begin.\n\n\nBrand Guideline Sections\n1) Brand Vibe Analysis (Overall Aesthetic Register, Film & Colour Language, Light, Environment & Set Language, Posing & Human Quality, Model Archetype)\n\n2) Master Vibe Segment (This is the locked aesthetic core — the single reference paragraph that defines every image in the system, Locked Visual Parameters)\n\n3) Brand tone of voice (In One Line, Personality Traits, Written Voice Principles, Examples of On-Brand Copy, Examples of Off-Brand Copy, Campaign Register)\n\n4) A master prompt template that defines & locks the aesthetic qualities of the JIMMY FAIRLY brand/ethos that can be applied across all image compositions.\n\n5) Recommended model-types (1 male, 1 female) to build with a structured prompt model template that we can then use as a subject reference (to showcase the sunglasses through a series of poses)\n\n6) Scene prompt templates\n\n\n\n\n--\nMODEL TEMPLATE (we only need to adjust 'subject' and 'outfit' fields):\n\n[IMAGE TYPE: Full-length fashion photo]\n[SUBJECT: Young woman, early 20s, fair skin, wavy blonde hair falling to shoulders][POSE: Neutral standing pose, front view.]\n[OUTFIT: Cream ivory semi-sheer blouse with peach lace appliqué in scalloped bib pattern across chest and sleeves, pintuck button placket, ruffle lace cuffs — layered over a pale butter-yellow tiered tulle midi skirt with lace waistband, tan brown leather cowboy boots. Wide-brim straw hat, flat crown, Enamel banana earrings visible.]\n[ENVIRONMENT & LIGHTING: pure white seamless background. High-key lighting, minimal cast shadow on the floor.]\n[CAMERA & FILM STOCK: shot on Hasselblad H6D, 85mm lens, f/8, sharp focus, Kodak Portra 160 film stock, fine grain, accurate skin tones, commercial fashion photography style]\n\n--\nSCENE TEMPLATE (these should all be posed/candid fashion shots showcasing the product on the model)\n[IMAGE TYPE: e.g. editorial fashion photography, fashion campaign photography etc.]\n[SUBJECT REFERENCE: @ character sheet of subject we create in 'model template' stage]\n[SUBJECT ACTION: e.g. standing still with hand on hip, walking slowly through grass, turning to look over shoulder, etc.]\n[SHOT TYPE: e.g. full-length, medium shot, wide establishing shot, close-up portrait, three-quarter length, etc.]\n[CAMERA ANGLE: e.g. eye-level front view]  [LENS: e.g. 35mm wide-angle f/4 deep depth of field]\n[LIGHTING: Describe direction, quality & mood]\n[ENVIRONMENT: Full background description]\n[COLOR GRADE: Overall color treatment]\n[MOOD & ATMOSPHERE: Emotional feeling]\n[TECHNICAL SPECS: Camera, film emulation & effects]",
+    "example": "",
+    "categories": [
+      "LLM",
+      "Gen AI"
+    ],
+    "createdAt": "2026-03-29"
+  },
+  {
+    "id": "1774791056399",
+    "title": "Advanced Camera Movement Terms",
+    "prompt": "FPV Drone (First Person View): The camera flies like a bird or fighter jet, banking and diving through tight gaps. It is used for high-adrenaline, high-speed sequences. \n\nBarrel Roll (The \"Vortex\"): The camera rotates 360 degrees on its axis, causing the horizon to spin upside down. This creates a disorienting, dream-like, or sci-fi effect. \n\nDolly Zoom (The \"Vertigo\" Effect): A cinematic trick where the camera moves forward while zooming out (or vice versa), keeping the subject the same size while the background warps. It conveys panic, shock, or a sudden moment of clarity. \n\nCrash Zoom (Snap Zoom): The camera zooms in extremely fast onto a specific detail or face, often with motion blur. This is best for comedic shock, sudden intensity, or emphasizing a reaction. \n\nGod's Eye View (Top Down): The camera looks directly down at the subject from a 90-degree angle, turning the world into a flat 2D map. It provides a clinical, detached, or geometric perspective. \n\nBullet Time (Frozen Orbit): The subject is frozen in time (mid-air or mid-explosion) while the camera orbits around them in 360 degrees. This creates a superhuman, \"Matrix\"-style detailed effect.\n",
+    "example": "",
+    "categories": [
+      "Gen AI",
+      "Video"
+    ],
+    "createdAt": "2026-03-29"
+  },
+  {
+    "id": "1774791000427",
+    "title": "Video Prompt Structure",
+    "prompt": "Basic Structure\n[action/sequence], \n[subject/environment shifts], \n[camera movement], \n[mood/lighting shifts], \n[technical specs]. \n\nPrompt Components Defined \nAction/Sequence: Describes what the subject is doing (e.g., slowly draws sword, subtle smile then waves). \n\nSubject/Enviro Shifts: How the subject or environment changes (e.g., facial expressions change from serious to joyful, hair flows in breeze). \n\nCamera Movement: Defines how the camera moves (e.g., slow orbit 360°, gentle pull-out, crash zoom, or dolly zoom). \n\nMood/Lighting Shifts: Transitions in lighting (e.g., transitions from warm daylight to cool twilight, rim lighting intensifies). \n\nTechnical Specs: Professional details (e.g., aspect ratio, shallow depth of field, filmic color grade, no warping).\n\n\n\n---\nAlternatively, for more advanced movement-focused shots, the structure is: \n[Medium]\n[Shot] \n[Angle]\n[Movement]\n[Focus]\n[Subject]\n[Lighting] \n[Color]. \n",
+    "example": "The character banks and dives through a narrow canyon, clothes flapping violently in the wind, FPV drone fly-through following at high speed, sunlight transitions to deep shadows between cliffs, 4K, natural motion, no warping.",
+    "categories": [
+      "Gen AI",
+      "Video"
+    ],
+    "createdAt": "2026-03-29"
+  },
+  {
+    "id": "1774790563599",
+    "title": "Prompt Creation Assistance",
+    "prompt": "I am trying to get you, Claude, to help me with (GOAL). \n\nI am not sure how to phrase my request to get the best results. \n\nCan you help me craft an effective prompt for this?",
+    "example": "",
+    "categories": [
+      "LLM",
+      "General"
+    ],
+    "createdAt": "2026-03-29"
+  },
+  {
+    "id": "1774790413418",
+    "title": "Basic Prompt Structure",
+    "prompt": "I want to [YOUR TASK] so that [describe WHAT GOOD LOOKS LIKE]. \n\nBefore answering, please think through this problem carefully. Consider the different factors involved, potential constraints and various approaches before recommending the best solution.DO NOT start working yet. First, ask me clarifying questions so we can define the approach together. Once we align, present me with a concrete action plan you will follow with time estimates for each task. Only begin once we're fully aligned and I agree to the plan.\n",
+    "example": "Organize all files in this folder into subfolders by client name. Use the format YYYY-MM-DD-descriptive-name for all filenames. Create a summary log documenting every change. Don’t delete anything. If a file could belong to multiple clients, put it in /needs-review.\nDO NOT start working yet. First, ask me clarifying questions so we can define the approach together. Once we align, present me with a concrete action plan you will follow with time estimates for each task. Only begin once we're fully aligned and I agree to the plan.\n",
+    "categories": [
+      "LLM",
+      "General"
+    ],
+    "createdAt": "2026-03-29"
+  },
+  {
+    "id": "1774790197824",
+    "title": "Grid 4 Images",
+    "prompt": "Create a grid of 4 images based on this reference image. Make them different angles and highly cinematic. Come up with extreme angles.",
+    "example": "",
+    "categories": [
+      "Gen AI",
+      "Character"
+    ],
+    "createdAt": "2026-03-29"
+  },
+  {
+    "id": "1774789922238",
+    "title": "Extract Character – PJ Ace",
+    "prompt": "Extract the full visual identity of the person from the reference image, including facial structure, skin tone, eye shape and color, hairstyle, hair length and texture, fringe/bangs, age range, body proportions, and natural facial features. Preserve realism and identity accuracy. Recreate this person as a photorealistic, front-facing head-and-shoulders studio portrait, centered in frame, with a neutral, relaxed expression and eyes looking directly into the camera. Place the subject against a pure white studio background with soft, even, diffused studio lighting coming from the front, creating minimal shadows and natural skin texture. No harsh contrast, no dramatic lighting. Camera is positioned at eye level, straight-on, with a clean portrait lens look (natural perspective, no distortion). Crop from upper chest to just above the head. Clothing should be simple and neutral, with no logos or distractions. Style is clean, documentary-style studio photography, high realism, sharp focus, natural color grading, professional portrait quality. Keep the same clothing from the original image. Do not add stylization, emotion, props, background elements, or dramatic poses. The goal is a neutral character reference image suitable for a character sheet.",
+    "example": "",
+    "categories": [
+      "Gen AI",
+      "Character"
+    ],
+    "createdAt": "2026-03-29"
+  },
+  {
+    "id": "1774789749803",
+    "title": "Camera Angles ",
+    "prompt": "Full Body\nDirect 0-degree angle (Full-body front view centered in frame of this character)\n90-degree camera angle (Full-body side profile view from the left side of this character)\n270-degree camera angle (Full-body side profile view from the right side of this character)\n180-degree camera angle (Full-body rear view of this character)\n45-degree camera angle (Full-body front 3/4 profile view facing left of this character)\n315-degree camera angle (Full-body front 3/4 profile view facing right of this character)\n225-degree camera angle (Full-body rear 3/4 profile view/rear-right perspective of this character)\n135-degree camera angle (Full-body rear 3/4 profile view/rear-left perspective of this character)\nLow-angle hero shot (Looking slightly upward from a 15-degree vertical tilt of this character)\n\nShoulder Up (Portrait)\nDirect 0-degree angle (Shoulder-up front view centered in frame of this character)\n90-degree camera angle (Shoulder-up side profile view from the left side of this character)\n270-degree camera angle (Shoulder-up side profile view from the right side of this character)\n180-degree camera angle (Shoulder-up rear view of this character)\n45-degree camera angle (Shoulder-up front 3/4 profile view facing left of this character)\n315-degree camera angle (Shoulder-up front 3/4 profile view facing right of this character)\n225-degree camera angle (Shoulder-up rear 3/4 profile view/rear-right perspective of this character)\n135-degree camera angle (Shoulder-up rear 3/4 profile view/rear-left perspective of this character)\nLow-angle hero shot (Looking slightly upward from a 15-degree vertical tilt at the head and shoulders of this character)",
+    "example": "",
+    "categories": [
+      "Gen AI",
+      "Character"
+    ],
+    "createdAt": "2026-03-29"
+  },
+  {
+    "id": "1774789419588",
+    "title": "Character to Scene",
+    "prompt": "[IMAGE TYPE: e.g., cinematic film still, dramatic photograph, moody portrait, etc.]\n[CHARACTER REFERENCE: @img1] \n[OUTFIT: ///outfit description///] \n[PRODUCT: ///product description///] \n[SUBJECT ACTION: e.g., standing still with hand on hip, walking slowly through grass, turning to look over the shoulder, etc.] \n[SHOT TYPE: e.g. full-length, medium shot, wide establishing shot, close-up portrait, three-quarter length, etc.] \n[CAMERA ANGLE: e.g., eye-level front view] \n[LENS: e.g., 35mm wide-angle f/4 deep depth of field] \n[LIGHTING: Describe direction, quality & mood] \n[ENVIRONMENT: Full background description] \n[COLOR GRADE: Overall color treatment] \n[MOOD & ATMOSPHERE: Emotional feeling] \n[TECHNICAL SPECS: Camera, film emulation & effects]\n",
+    "example": "[IMAGE TYPE: Fashion campaign photography]\n[SUBJECT REFERENCE: @img1 wearing @img2]\n[OUTFIT: mid-wash indigo denim overshirt — relaxed fit, worn fully open, white buttons, over a coral red fine-ribbed crewneck knit sweater, paired with wide-leg white and cream thin pinstripe casual shorts sitting at the natural waist, woven leather belt with gold buckle, thin gold pendant necklace, small gold stud earring — nothing else, wearing leather summer shoes]\n[PRODUCT: Fielmann Black sunglasses] \n[SUBJECT ACTION: Cheeky posing for the camera. Magazine editorial. Not performing. The expression is real, emotional.] \n[SHOT TYPE: close-up, tight face , 16:9 framing. Subject centered, face filling the frame. Hair and hands at the edges.] \n[CAMERA ANGLE: Slightly elevated, shooting down at roughly 20 degrees — intimate overhead angle, face turned upward toward the camera without knowing it.]\n[LENS: 50mm, f/2.0 — shallow depth of field, background dissolves completely, sharp focus on glasses and face.]\n[LIGHTING: Soft directional 5200K daylight. Golden, realistic skin texture.]\n[ENVIRONMENT: Standing in front of a Space Age cafe exterior in France in 1970's.]\n",
+    "categories": [
+      "Gen AI",
+      "Character"
+    ],
+    "createdAt": "2026-03-29"
+  },
+  {
+    "id": "1774789296008",
+    "title": "Character Sheet – 16x9",
+    "prompt": "[IMAGE TYPE: Fashion photo model sheet collage in **exactly** the same 5-shot layout and composition as @img1.] \n[SUBJECT: Use the uploaded input photo @img2 as the ONLY reference for the character's exact face, skin details, body type, hair, makeup, expression, and full outfit/accessories — apply them identically and with perfect consistency across all five views.] \n[ENVIRONMENT & LIGHTING: pure white seamless background. High-key lighting, minimal cast shadow on the floor.] \n[CAMERA & FILM STOCK: shot on Hasselblad H6D, 85mm lens, f/8, sharp focus, Kodak Portra 160 film stock, fine grain, accurate skin tones, commercial fashion photography style] \n[DETAILS: Perfect anatomical and clothing consistency across every angle, high-end editorial look, no text, no logos, no graphics.]\n",
+    "example": "",
+    "categories": [
+      "Gen AI",
+      "Character"
+    ],
+    "createdAt": "2026-03-29"
+  },
+  {
+    "id": "1774789222736",
+    "title": "Extract Character – 9x16",
+    "prompt": "[IMAGE TYPE: Full-length fashion photo] \n[SUBJECT: @img1 ] \n[OUTFIT: ///add your outfit description here///]\n[POSE: Neutral standing pose, front view.]  \n[ENVIRONMENT & LIGHTING: pure white seamless background. High-key lighting, minimal cast shadow on the floor.] \n[CAMERA & FILM STOCK: shot on Hasselblad H6D, 85mm lens, f/8, sharp focus, Kodak Portra 160 film stock, fine grain, accurate skin tones, commercial fashion photography style]\n",
+    "example": "",
+    "categories": [
+      "Gen AI",
+      "Character"
+    ],
+    "createdAt": "2026-03-29"
+  },
+  {
+    "id": "1774788884792",
+    "title": "New Character –  9x16 ",
+    "prompt": "[IMAGE TYPE: Full-length fashion photo] \n[SUBJECT: ///enter your subject details here///]  \n[OUTFIT: ///enter your outfit details here///] \n[POSE: Neutral standing pose, front view. Direct gaze at camera — expression neutral, composed, slightly guarded.] \n[ENVIRONMENT & LIGHTING: pure white seamless background. High-key lighting, minimal cast shadow on the floor.] \n[CAMERA & FILM STOCK: shot on Hasselblad H6D, 85mm lens, f/8, sharp focus, Kodak Portra 160 film stock, fine grain, accurate skin tones, commercial fashion photography style]\n",
+    "example": "[IMAGE TYPE: Full-length fashion photo]\n[SUBJECT: French woman, early 30s, warm beige to light olive skin, immaculate complexion, long dark brown hair — straight, heavy and shiny, falls past the shoulders with a natural centre part, strong defined bone structure, sharp cheekbones, clean jawline, dark brown eyes, naturally full brows, minimal makeup — tinted moisturiser and nothing else, lean build, medium height, completely self-possessed posture — still, upright, effortless]\n[OUTFIT: mid-wash indigo denim overshirt — relaxed fit, worn fully open, white buttons, over a coral red fine-ribbed crewneck knit sweater, paired with wide-leg white and cream thin pinstripe casual shorts sitting at the natural waist, woven leather belt with gold buckle, thin gold pendant necklace, small gold stud earring — nothing else, wearing leather summer shoes]\n[POSE: Neutral standing pose, front view. Direct gaze at camera — expression neutral, composed, slightly cool. No smile. The kind of look that doesn't need to explain itself.]\n[ENVIRONMENT & LIGHTING: pure white seamless background. High-key lighting, minimal cast shadow on the floor.]\n[ENVIRONMENT & LIGHTING: pure white seamless background. High-key lighting, minimal cast shadow on the floor.]\n[CAMERA & FILM STOCK: shot on Hasselblad H6D, 85mm lens, f/8, sharp focus, Kodak Portra 160 film stock, fine grain, accurate skin tones, commercial fashion photography style]\n",
+    "categories": [
+      "Gen AI",
+      "Character"
+    ],
+    "createdAt": "2026-03-29"
+  }
+]
