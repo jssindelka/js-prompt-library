@@ -58,8 +58,14 @@ export default function Home() {
     setTemplates(data);
   }, []);
 
-  useEffect(() => { loadPrompts(); }, [loadPrompts]);
-  useEffect(() => { loadTemplates(); }, [loadTemplates]);
+  useEffect(() => {
+    // eslint-disable-next-line react-hooks/set-state-in-effect
+    loadPrompts();
+  }, [loadPrompts]);
+  useEffect(() => {
+    // eslint-disable-next-line react-hooks/set-state-in-effect
+    loadTemplates();
+  }, [loadTemplates]);
 
   // ── Library filtered ───────────────────────────────────────
   const filtered = useMemo(() => {

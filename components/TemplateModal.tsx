@@ -29,16 +29,25 @@ export default function TemplateModal({ template, onClose, onSave, onDelete }: T
 
   useEffect(() => {
     if (template) {
+      // eslint-disable-next-line react-hooks/set-state-in-effect
       setTitle(template.title);
+       
       setText(template.prompt);
+       
       setExample(template.example || "");
+       
       setCategories(template.categories ?? []);
     } else {
+       
       setTitle("");
+       
       setText("");
+       
       setExample("");
+       
       setCategories([]);
     }
+     
     setCatInput("");
   }, [template]);
 

@@ -1,3 +1,7 @@
+import { config } from "dotenv";
+import { resolve } from "path";
+config({ path: resolve(process.cwd(), ".env.local") });
+
 import { neon } from "@neondatabase/serverless";
 import * as fs from "fs";
 import * as path from "path";

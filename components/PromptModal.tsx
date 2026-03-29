@@ -43,15 +43,20 @@ export default function PromptModal({ prompt, onClose, onSave, onDelete }: Promp
 
   useEffect(() => {
     if (!titleManual && autoTitle) {
+      // eslint-disable-next-line react-hooks/set-state-in-effect
       setTitle(autoTitle);
     }
   }, [autoTitle, titleManual]);
 
   useEffect(() => {
     if (prompt) {
+      // eslint-disable-next-line react-hooks/set-state-in-effect
       setTitle(prompt.title);
+       
       setTitleManual(true);
+       
       setText(prompt.prompt);
+       
       setImage(prompt.image || "");
     }
   }, [prompt]);
